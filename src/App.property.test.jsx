@@ -17,7 +17,7 @@ describe('App - Property-Based Tests', () => {
       hero: 'Daniel Sebastián Ochoa Urrego',
       academic: 'Systems Engineer',
       experience: 'Publicis Sapient',
-      contact: 'danochoa1412@gmail.com'
+      contact: 'danochoa@gmail.com'
     };
 
     const tabLabels = {

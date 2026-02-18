@@ -42,7 +42,7 @@ describe('App - Integration Tests', () => {
     fireEvent.click(contactTab);
 
     // Contact content should now be visible, Experience content should be hidden
-    expect(screen.getByText('danochoa1412@gmail.com')).toBeInTheDocument();
+    expect(screen.getByText('danochoa@gmail.com')).toBeInTheDocument();
     expect(screen.queryByText('Publicis Sapient')).not.toBeInTheDocument();
 
     // Click back to Hero tab
@@ -51,7 +51,7 @@ describe('App - Integration Tests', () => {
 
     // Hero content should be visible again, Contact content should be hidden
     expect(screen.getByText('Daniel Sebastián Ochoa Urrego')).toBeInTheDocument();
-    expect(screen.queryByText('danochoa1412@gmail.com')).not.toBeInTheDocument();
+    expect(screen.queryByText('danochoa@gmail.com')).not.toBeInTheDocument();
   });
 
   /**
@@ -81,7 +81,7 @@ describe('App - Integration Tests', () => {
     // Test Contact tab
     const contactTab = screen.getByRole('tab', { name: 'Contact' });
     fireEvent.click(contactTab);
-    expect(screen.getByText('danochoa1412@gmail.com')).toBeInTheDocument();
+    expect(screen.getByText('danochoa@gmail.com')).toBeInTheDocument();
     expect(contactTab).toHaveAttribute('aria-selected', 'true');
   });
 
