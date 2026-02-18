@@ -2,7 +2,7 @@
 
 A modern, responsive single-page application showcasing my professional profile, work experience, education, and skills through an intuitive tabbed interface.
 
-🔗 **Live Demo:** [cv-daniel-ochoa.azurewebsites.net](https://cv-daniel-ochoa.azurewebsites.net)
+🔗 **Live Demo:** [cv-daniel-ochoa.azurewebsites.net](https://cv-daniel-ochoa-bddvhyc5cvdabxbw.chilecentral-01.azurewebsites.net/)
 
 ## 📋 Overview
 
