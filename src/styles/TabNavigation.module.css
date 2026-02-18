@@ -1,0 +1,52 @@
+/* TabNavigation Component Styles */
+
+.tabNavigation {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 0 1rem;
+  background-color: #ffffff;
+}
+
+.tab-button {
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 200ms ease;
+  position: relative;
+  top: 2px;
+}
+
+.tab-button:hover {
+  color: #2563eb;
+  background-color: #f8fafc;
+}
+
+.tab-button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: -2px;
+}
+
+.tab-button.active {
+  color: #2563eb;
+  font-weight: 600;
+  border-bottom-color: #2563eb;
+}
+
+/* Mobile responsive */
+@media (max-width: 640px) {
+  .tabNavigation {
+    padding: 0 0.5rem;
+    gap: 0.25rem;
+  }
+  
+  .tab-button {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+  }
+}

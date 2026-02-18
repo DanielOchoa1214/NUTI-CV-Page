@@ -1,0 +1,204 @@
+.experienceContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.5rem;
+}
+
+/* Work Experience Styles */
+.workItem {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.workItem:last-child {
+  border-bottom: none;
+}
+
+.workHeader {
+  margin-bottom: 1rem;
+}
+
+.jobTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: #2563eb;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.period {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-bottom: 0.5rem;
+}
+
+.responsibilities {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.responsibilities li {
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.techStack {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.75rem;
+}
+
+.techStack strong {
+  color: #1e293b;
+}
+
+/* Projects Styles */
+.projectItem {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.projectItem:last-child {
+  border-bottom: none;
+}
+
+.projectName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.projectDescription {
+  color: #1e293b;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+/* Skills Styles */
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skillCategory {
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.skillLevel {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.skillList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillItem {
+  padding: 0.5rem 0;
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.skillItem:last-child {
+  border-bottom: none;
+}
+
+/* Certifications Styles */
+.certificationList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.certificationItem {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f8fafc;
+  border-left: 4px solid #2563eb;
+  color: #1e293b;
+  border-radius: 4px;
+}
+
+/* Languages Styles */
+.languageList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.languageItem {
+  padding: 0.75rem 1.5rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #1e293b;
+}
+
+.languageName {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.proficiency {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .experienceContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .jobTitle,
+  .projectName {
+    font-size: 1.1rem;
+  }
+
+  .skillsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .responsibilities {
+    margin-left: 1rem;
+  }
+}

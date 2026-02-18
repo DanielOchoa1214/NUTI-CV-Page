@@ -1,0 +1,159 @@
+.academicContainer {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.educationSection,
+.achievementsSection {
+  margin-bottom: 3rem;
+}
+
+.achievementsSection {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 1.5rem 0;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.5rem;
+}
+
+.educationCard {
+  background-color: #f8fafc;
+  border-left: 4px solid #2563eb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.degree {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.university {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.educationDetails {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.period,
+.location {
+  font-size: 0.9375rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.period::before {
+  content: '📅 ';
+  margin-right: 0.25rem;
+}
+
+.location::before {
+  content: '📍 ';
+  margin-right: 0.25rem;
+}
+
+.achievementsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.achievementCard {
+  background-color: #f8fafc;
+  border-left: 4px solid #0ea5e9;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.achievementCard:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.achievementTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 0.75rem 0;
+}
+
+.achievementDescription {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 640px) {
+  .academicContainer {
+    padding: 1rem;
+  }
+
+  .educationSection,
+  .achievementsSection {
+    margin-bottom: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .educationCard,
+  .achievementCard {
+    padding: 1rem;
+  }
+
+  .degree {
+    font-size: 1.25rem;
+  }
+
+  .university {
+    font-size: 1rem;
+  }
+
+  .educationDetails {
+    gap: 1rem;
+  }
+
+  .period,
+  .location {
+    font-size: 0.875rem;
+  }
+
+  .achievementTitle {
+    font-size: 1.125rem;
+  }
+
+  .achievementDescription {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Tablet breakpoint */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .academicContainer {
+    padding: 1.5rem;
+  }
+
+  .educationSection,
+  .achievementsSection {
+    margin-bottom: 2.5rem;
+  }
+}
